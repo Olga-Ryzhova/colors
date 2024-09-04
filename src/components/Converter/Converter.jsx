@@ -34,7 +34,8 @@ const Converter = () => {
 					onChange={onValueChange} 
 					type="text" 
 					name="color" 
-					placeholder="#RRGGBB"/>
+					placeholder="#RRGGBB"
+					maxLength="7"/>
 				</form>
 
 				<div className="color-rgb" 
